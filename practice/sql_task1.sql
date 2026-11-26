@@ -83,7 +83,7 @@ SELECT * FROM employee;
 
 -- DELETE文: データの削除
 UPDATE project SET employee_id = NULL WHERE employee_id = 3;
-DELETE FROM employee WHERE name = '北條';
+DELETE FROM employee WHERE id = 3;
 SELECT * FROM employee;
 -- +----+--------+-----+-----------------+---------+---------------+
 -- | id | name   | age | job             | sal     | department_id |
